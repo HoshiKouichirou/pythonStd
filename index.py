@@ -1,4 +1,4 @@
-text = "りんご ごりら らっぱ ぱせり りす"
+text = "りんご らっぱ ぱせり ごりら りす かい"
 text  = text.split(" ")
 ans = ["しりとり"]
 def getLastWord():
@@ -13,9 +13,9 @@ def start():
         text.remove(val)
         start()
         break
-      else:
-        print("FINISH", ans) 
-        break
+    else:
+      if len(text) != 0:
+        print("FINISH", ans)
   else:
     print("FINISH", ans)
 start()
