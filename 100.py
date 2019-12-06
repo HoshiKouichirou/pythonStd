@@ -1,6 +1,7 @@
 # text = "stressed"
 # ans = ""
 # for i in range(len(text)):
+# aaaaaaa
 #   ans =text[i]+ans
 # else:
 #   print(ans)
